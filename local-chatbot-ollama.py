@@ -1,11 +1,3 @@
-```python
-# Simple Local Chatbot using Ollama in Python
-# Prerequisites:
-# 1. Install Ollama from https://ollama.com/ and ensure it's running (e.g., via `ollama serve` in a terminal).
-# 2. Pull a lightweight open-source model, e.g., run `ollama pull phi3:mini` in your terminal.
-#    This is a small, efficient model (about 3.8B parameters) that runs well on most hardware.
-# 3. Install the Ollama Python library: `pip install ollama`
-
 import ollama
 
 def simple_chatbot(model='phi3:mini'):
