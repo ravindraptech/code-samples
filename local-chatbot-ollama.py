@@ -48,4 +48,3 @@ def simple_chatbot(model='phi3:mini'):
 # Run the chatbot
 if __name__ == "__main__":
     simple_chatbot()
-```
